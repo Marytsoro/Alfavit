@@ -23,5 +23,5 @@ build/src/functions.o: src/functions.cpp
 bin/test: build/test/test.o build/src/functions.o build/test/test_functions.o
 	g++ -o bin/test build/test/test.o build/src/functions.o build/test/test_functions.o
 
-bin/alphabet: build/src/main.o build/src/functions.o
+bin/alfavit: build/src/main.o build/src/functions.o
 	g++ -o bin/alfavit build/src/main.o build/src/functions.o
